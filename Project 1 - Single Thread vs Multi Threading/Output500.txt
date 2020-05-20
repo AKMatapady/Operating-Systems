@@ -1,0 +1,40 @@
+Script started on Thu 11 Oct 2018 11:05:33 AM CDT
+
+{csgrads1:~} ls
+
+perl5  prog1.c  prog2.c  public_html
+
+{csgrads1:~} cc prog1.c
+
+{csgrads1:~} ./a.out
+
+Start Time: 2018-10-11 11-05-46.870679
+
+End Time: 2018-10-11 11-06-03.447874
+
+Time to Execute in seconds: 17.000000 
+
+{csgrads1:~} cc prog2.c -pthread
+
+{csgrads1:~} ./a.out
+
+Start Time: 2018-10-11 11-06-27.610355
+
+End Time: 2018-10-11 11-06-28.273201
+
+Time to Execute in seconds: 1.000000 
+
+{csgrads1:~} ls
+
+a.out  MatrixCMT.txt  MatrixCST.txt  output1.txt  perl5  prog1.c  prog2.c  public_html
+
+{csgrads1:~} cmp -s MatrixCST.txt MatrixCMT.txt && echo 'Files are Identical' || echo 'Files  
+are Different'
+
+Files are Identical
+
+{csgrads1:~} exit
+
+
+
+Script done on Thu 11 Oct 2018 11:06:38 AM CDT

@@ -1,0 +1,36 @@
+Script started on Thu 10 Oct 2018 17:43:58 PM CDT
+
+{csgrads1:~} ls
+
+perl5  prog1.c  prog2.c  public_html
+
+{csgrads1:~} cc prog1.c
+
+{csgrads1:~} ./a.out
+
+Start Time: 2018-10-10 17-47-58.099931
+
+End Time: 2018-10-10 22-37-38.725796
+Time to Execute in seconds: 17441.000000 
+
+{cslinux2:~} rm MatrixCST.txt
+rm: remove regular file ‘MatrixCST.txt’? y
+{csgrads1:~} cc prog2.c -pthread
+
+{csgrads1:~} ./a.out
+
+Start Time: 2018-10-10 23-28-48.411694
+End Time: 2018-10-10 23-38-55.223579
+
+Time to Execute in seconds: 607.000000 
+
+{csgrads1:~} ls
+
+a.out  MatrixCMT.txt  output1.txt  perl5  prog1.c  prog2.c  public_html
+
+{csgrads1:~} exit
+
+
+
+Script done on Thu 10 Oct 2018 23:47:12 PM CDT
+
